@@ -1,0 +1,15 @@
+$("#pract11").click(function(){
+	$("#errorHandling").hide();
+	$("#animation").hide();
+	$("#validation").show();
+});
+$("#pract12").click(function(){
+	$("#animation").hide();
+	$("#validation").hide();
+	$("#errorHandling").show();
+});
+$("#pract13").click(function(){
+	$("#validation").hide();
+	$("#errorHandling").hide();
+	$("#animation").show();
+});
